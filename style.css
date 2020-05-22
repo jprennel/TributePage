@@ -1,0 +1,56 @@
+main {
+    text-align: center;
+    background-color:rgb(233, 233, 233);
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 0.5em;
+}
+
+h2 {
+    font-size: small;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#img-div {
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+img {
+    max-width: 90%;
+}
+
+#img-caption {
+    font-size: 0.75em;
+    font-weight: lighter;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 0.33fr 1fr 0.33fr;
+    text-align: left;
+}
+
+#container > * {
+    grid-column: 2;
+    min-width: 0;
+}
+
+p {
+    font-style: italic;
+}
+}
